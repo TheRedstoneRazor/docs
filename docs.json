@@ -12,16 +12,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        },
-        {
           "anchor": "Discord",
           "icon": "newspaper",
           "href": "https://discord.gg/bcssPkw"
@@ -31,6 +21,7 @@
     "tabs": [
       {
         "tab": "Guides",
+        "hidden": true,
         "groups": [
           {
             "group": "Getting started",
@@ -68,6 +59,7 @@
       },
       {
         "tab": "API reference",
+        "hidden": true,
         "groups": [
           {
             "group": "API documentation",
@@ -84,6 +76,13 @@
               "api-reference/endpoint/webhook"
             ]
           }
+        ]
+      },
+      {
+        "tab": "About",
+        "pages": [
+          "untitled-page",
+          "rules"
         ]
       }
     ]
