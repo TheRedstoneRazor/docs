@@ -23,7 +23,21 @@
         "tab": "About",
         "pages": [
           "home",
-          "rules"
+          "rules",
+          "events",
+          {
+            "group": "Minecraft",
+            "pages": [
+              "mc/about",
+              "mc/modpack"
+            ]
+          },
+          {
+            "group": "Palworld",
+            "pages": [
+              "palworld/about"
+            ]
+          }
         ]
       }
     ]
