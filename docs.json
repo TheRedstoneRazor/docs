@@ -39,6 +39,22 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Modpack",
+        "hidden": true,
+        "pages": [
+          "modpack/introduction",
+          {
+            "group": "Survival Tweaks",
+            "pages": [
+              "modpack/tweaks/crafting",
+              "modpack/tweaks/structures",
+              "modpack/tweaks/mobs",
+              "modpack/tweaks/other"
+            ]
+          }
+        ]
       }
     ]
   },
